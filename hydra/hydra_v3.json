@@ -1,0 +1,143 @@
+{
+  "name": "hydra",
+  "email": "hydra@2023.com",
+  "birth_year": 2023,
+  "version": 3,
+  "lts": 1.6,
+  "address": {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "post_code": 1212
+  },
+  "branch": {
+    "count": 5,
+    "private": true,
+    "branch_codes": [
+      "hydra_X",
+      "hydra_Y",
+      "hydra_Z"
+    ],
+    "sub_branch": {
+      "count": 2,
+      "status": "CLOSED"
+    }
+  },
+  "data": {
+    "location": "Dhaka",
+    "list_name": "branch",
+    "last_updated": "2020-11-01",
+    "created_in": "2019-11-25 21:00:00+06:00",
+    "released_in": "2019-11-25T21:00:00+06:00",
+    "list": [
+      {
+        "branch_id": 10,
+        "branch_name": "hydra_10_Y",
+        "status": "OPEN",
+        "location": "Dhaka",
+        "sub_branch_data": {
+          "location": "Dhaka",
+          "list_name": "sub_branch",
+          "sub_branch_list": [
+            {
+              "branch_id": 100,
+              "branch_name": "hydra_sub_100",
+              "status": "OPEN"
+            },
+            {
+              "branch_id": 101,
+              "branch_name": "hydra_sub_101",
+              "status": "CLOSED"
+            }
+          ]
+        }
+      },
+      {
+        "branch_id": 11,
+        "branch_name": "hydra_11_Y",
+        "status": "OPEN",
+        "location": "Dhaka",
+        "sub_branch_data": {
+          "location": "Dhaka",
+          "list_name": "sub_branch",
+          "sub_branch_list": [
+            {
+              "branch_id": 102,
+              "branch_name": "hydra_sub_102",
+              "status": "OPEN"
+            },
+            {
+              "branch_id": 103,
+              "branch_name": "hydra_sub_103",
+              "status": "CLOSED"
+            }
+          ]
+        }
+      },
+      {
+        "branch_id": 12,
+        "branch_name": "hydra_12_X",
+        "status": "OPEN",
+        "location": "Dhaka",
+        "sub_branch_data": {
+          "location": "Dhaka",
+          "list_name": "sub_branch",
+          "sub_branch_list": [
+            {
+              "branch_id": 104,
+              "branch_name": "hydra_sub_104",
+              "status": "OPEN"
+            },
+            {
+              "branch_id": 105,
+              "branch_name": "hydra_sub_105",
+              "status": "CLOSED"
+            }
+          ]
+        }
+      },
+      {
+        "branch_id": 13,
+        "branch_name": "hydra_13_X",
+        "status": "CLOSED",
+        "sub_branch_data": {
+          "location": "Dhaka",
+          "list_name": "sub_branch",
+          "sub_branch_list": [
+            {
+              "branch_id": 106,
+              "branch_name": "hydra_sub_106",
+              "status": "OPEN"
+            },
+            {
+              "branch_id": 107,
+              "branch_name": "hydra_sub_107",
+              "status": "CLOSED"
+            }
+          ]
+        }
+      },
+      {
+        "branch_id": 14,
+        "branch_name": "hydra_14_Z",
+        "status": "CLOSED",
+        "location": "",
+        "sub_branch_data": {
+          "location": "Dhaka",
+          "list_name": "sub_branch",
+          "sub_branch_list": [
+            {
+              "branch_id": 108,
+              "branch_name": "hydra_sub_108",
+              "status": "OPEN"
+            },
+            {
+              "branch_id": 109,
+              "branch_name": "hydra_sub_109",
+              "status": "CLOSED"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
